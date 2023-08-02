@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\rhakc\source\repos\ErrorHandling\ErrorHandling\ErrorHandling
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/rhakc/source/repos/ErrorHandling/ErrorHandling/ErrorHandling/Views/Home/Error1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvcjEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rhakc/source/repos/ErrorHandling/ErrorHandling/ErrorHandling/Views/Home/Error2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvcjIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rhakc/source/repos/ErrorHandling/ErrorHandling/ErrorHandling/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,4 +1,5 @@
-﻿using ErrorHandling.Models;
+﻿using ErrorHandling.Filter;
+using ErrorHandling.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +16,7 @@ namespace ErrorHandling.Controllers
             _logger = logger;
         }
 
+
         public IActionResult Index()
         {
             int value1 = 5;
@@ -23,7 +25,6 @@ namespace ErrorHandling.Controllers
             int result = value1 / value2;
             return View();
         }
-
         public IActionResult Privacy()
         {
             throw new FileNotFoundException();
@@ -39,6 +40,16 @@ namespace ErrorHandling.Controllers
             ViewBag.path = exception.Path;
             ViewBag.message = exception.Error.Message;
 
+            return View();
+        }
+
+        public IActionResult Error1()
+        {
+            return View();
+        }
+
+        public IActionResult Error2()
+        {
             return View();
         }
     }
